@@ -1,18 +1,18 @@
 package com.epam.l4;
 
-public class Dog {
+public class Dog extends Animal{
     private String name;
     private int age;
 
     public Dog(String name, int age) {
-        this.name = name;
-        this.age = age;
+        super(name, age);
     }
 
     @Override
     public String toString() {
-        return "Dog{" +
+    /*    return "Dog{" +
                 "name='" + name + '\'' +
-                '}';
+                '}';*/
+        return super.getName();
     }
 }
