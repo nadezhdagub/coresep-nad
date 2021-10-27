@@ -1,8 +1,8 @@
 package com.epam.l12;
 
-@FunctionalInterface
+//@FunctionalInterface
 public interface CatInter {
-    static void getName() {
+    /*private static void getName() {
         System.out.println("I am  B");
     }
 
@@ -10,5 +10,5 @@ public interface CatInter {
         System.out.println("I am  M");
     }
 
-    abstract String getInfo(String name);
+    abstract String getInfo(String name);*/
 }
