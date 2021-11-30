@@ -51,6 +51,6 @@ public class Main5 {
         Time time = Time.valueOf(now);
         System.out.println(now);
         System.out.println(time.toLocalTime());
-        
+
     }
 }
